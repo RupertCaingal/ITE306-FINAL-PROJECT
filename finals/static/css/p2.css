@@ -1,0 +1,226 @@
+body 
+{
+	margin: 0px;
+	font-family: verdana;
+}
+
+
+
+
+.nav 
+{
+	height: 30px;
+	background-color: rgba(228,228,228,0.7);
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+	padding: 15px 10%;
+
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+
+	top: 0;
+	box-shadow: 0px 1px 12px;
+	margin-right: 150px;
+
+
+
+
+
+}
+.nav .ctc
+{
+	margin-right: 150px;
+}
+
+
+
+
+li, a, button
+{
+
+	font-weight: 500;
+	font-size: 16px;
+	color:#24252a;
+	text-decoration: none;
+
+}
+
+ .logo , .ctc
+
+ {
+ 	background-color: transparent;
+ 	color:beige;
+ 	cursor: pointer;	
+
+
+ }
+  .logo 
+ {
+ 	margin-right: auto;
+ 	font-family: serif;
+ 	font-size: 30px;
+
+ 	letter-spacing: 3px;
+ 	color:#24252a;
+
+
+ }
+
+
+
+ .nav-links 
+ {
+ 	list-style: none;
+ }
+
+ .nav-links li 
+ {
+ 	display: inline-block;
+ 	padding: 0px 20px;
+
+ }
+
+ .nav-links li a
+ {
+ 	transition: all 0.3s ease 0s;
+ }
+
+  .nav-links li a:hover
+ {
+ 	color: gray;
+ 	border-bottom: 4px solid gray;
+ 	border-radius: 1px;
+ 	padding-bottom: 5px;
+
+ }
+
+
+.ctc {
+ 	padding: 9px 25px;
+ 	background-color: #24252a;
+ 	color: white;
+ 	border:none;
+ 	border-radius: 50px;
+ 	margin-left:  20px;
+
+ 	transition: all 0.3s ease 0s;
+
+ }
+
+.ctc:hover
+ {
+ 		opacity: 0.8;
+
+
+ }
+
+ #Title {
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.80);
+	width: 70%;
+	height: 45vh;
+
+	margin: auto;
+
+	justify-content: center;
+	align-items: center;
+
+	margin-top: 200px;	
+
+	box-shadow: 1px 1px 5px;
+
+
+}
+
+.titleC 
+{
+	width: 90%;
+	margin: auto;
+	height: 100%;
+
+	 padding-top: 40px;
+}
+
+#title- {
+
+
+	font-size: 60px;
+	font-family: serif;
+	color: #4C4452;
+
+}
+
+.content {
+	background-color: rgba(255, 255, 255, 0.80);
+	margin: auto;
+	width: 66%;
+	margin-top: 70px;
+	font-size: 23px;
+	box-shadow: 1px 1px 5px;
+
+
+}
+
+.content .img{
+	text-align: center;
+	font-size: 30px;
+
+	opacity: .8;
+}
+
+img 
+{
+	border: 1px solid transparent;
+	border-radius: 50%;
+}
+
+.content .ifcont {
+	text-align: center;
+	padding-left: 60px;
+	padding-right: 60px; 
+}
+
+.content .accnt {
+	list-style-type: none;
+	padding-left: 100px;
+
+}
+
+.content .links{
+	text-decoration: none;
+	color: #000000;
+}
+
+.content .par {
+	padding-left: 60px;
+
+}
+
+.content .YTvid {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+#note {
+	background-color: rgba(255, 255, 255, 0.80);
+	box-shadow: 1px 1px 5px;
+	margin:auto;
+	width: 50%;
+	font-size: 20px;
+	text-align: center;
+	padding: 30px 30px 30px 30px;
+}
+
+
+#aud {
+	text-align: center;
+	
+}
+
+
+footer {
+	text-align: center;
+}

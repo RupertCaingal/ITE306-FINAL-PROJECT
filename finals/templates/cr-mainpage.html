@@ -1,0 +1,307 @@
+<!--
+Title : Cook's Room
+Description : A mini website that features different recipe and influencers/ food enthusiast.
+                The purpose of this website is to appreciate more our filipino recipe and those influencers
+                also embracing and wnats to level up our culture on their contents. We want to give our users who
+                loves to cook different learnings by providing them some channels that they can watch and recipes
+                that they can try aon their owm./
+Programmers:
+            John Rupert S. Caingal
+            Ernesto E. Esguerra
+            Christian H. Salamat
+            Jimwell F. Seminiano
+
+Date submitted : October 23, 2022
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OOTD ROOM</title>
+
+	
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/mp.css')}}">
+</head>
+
+<style>
+
+header
+{
+	width: 100%;
+	height: 100vh;
+
+	top: 0;
+
+	position: relative;
+	display: flex;
+
+
+	align-items: center;
+	justify-content: center;
+}
+
+header::before {
+	content:"";
+	background-image: url({{url_for('static',filename='img/bg3.jfif')}});
+	background-size: contain;
+	position: absolute;
+
+
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	opacity: .7;
+
+	box-shadow: 2px 0px 7px;
+
+
+}
+
+
+header .headings
+{
+	text-align: center;
+	color: black;
+	position: relative;
+
+	font-size: 30px;
+
+	margin-bottom: 30px;
+
+	font-family: century gothic;
+
+	line-height: 5px;
+}
+
+header .headings p
+{
+	border: 1px solid black;
+	font-size:20px;
+	padding: 15px;
+	border-radius: 20px;
+
+	box-shadow: 1px 1px 1px;
+
+}
+
+header .headings p a
+{
+	text-decoration: none;
+	color: black;
+
+
+}
+
+
+
+
+</style>
+
+
+
+<body>
+	
+
+	<header>
+
+		<div class="headings">
+
+			<h1><big><b title="Outfit of the day">COOK'S</b><b> ROOM</b></big></h1>
+			<h6>A recipe has no soul. You as a cook must bring soul to the recipe</h6>
+			<br><br><br>
+
+
+		</div>
+
+
+
+
+
+
+		
+	</header>
+
+
+	<div class="nav">
+		<h2 class="logo">COOK'S ROOM</h2>
+			<nav>
+			<ul class="nav-links">
+
+	
+
+				
+
+				<li><a href="{{url_for('home')}}">Home</a></li>
+
+				<li><a href="{{url_for('page2')}}">Influencers Page</a></li>
+				<li><a href="{{url_for('page3')}}">Recipes</a></li>
+				<li><a href="#">About Us</a></li>
+
+				
+			</ul>
+		</nav>
+		<a href="mailto:you.dev@mail.com" class="contact"><button class="ctc">Contact</button></a>
+		
+	</div>
+
+
+	<section>
+
+
+		<div class="desc">
+
+			<hr>
+			<br><br><br>
+				
+
+
+			<p>
+				<strong title="Outfit of the day">&#10075;<i>COOK'S ROOM</i>&#10076;</strong> is a website for every people who loves to cook .<br>  A lot of Filipino cook YT Influencers will be shared here as well as recipe will be feature here that you can learn from..
+
+		
+
+			<br><br><br>
+				<hr>
+			
+		</div>
+		<br><br><br>
+		<br><br><br><br><br>
+		
+		<div class="recipe">
+			<div class="content-style1">
+				<p>
+					<big><b>Adobo</b></big> is a popular Filipino dish and cooking process in Philippine cuisine that involves meat, seafood, or vegetables marinated in vinegar, soy sauce, garlic, bay leaves, and black peppercorns, which is browned in oil, and simmered in the marinade.
+				</p>
+				
+			</div>
+
+
+			<div class ="img-style1">
+				<p ><img src="{{url_for('static',filename='img/adobo.jpg')}}" width="400px" height="500px;" alt="Adobo" >
+
+				
+
+			</div>
+	
+
+
+
+
+		 </div>
+
+
+
+		 <div class="recipe">
+		 	<div class ="img-style2">
+				<p><img src="{{url_for('static',filename='img/sisig.jpg')}}" width="400px" height="500px;" alt="sisig" >
+
+				
+
+			</div>
+
+			<div class="content-style2">
+				<p>
+					<big><b>Sisig</b></big> is a Filipino dish made from parts of a pig's face and belly, and chicken liver which is usually seasoned with calamansi, onions, and chili peppers. It originates from the Pampanga region in Luzon. Sisig is a staple of Kapampangan cuisine.
+				</p>
+				
+			</div>
+
+		 </div>
+
+
+		 <div class="recipe">
+		 	
+
+			<div class="content-style3">
+				<p>
+					<big><b>Sinigang</b></big>is a Filipino soup or stew characterized by its sour and savory taste. It is most often associated with tamarind, although it can use other sour fruits and leaves as the souring agent. It is one of the more popular dishes in Filipino cuisine. The soup is usually accompanied by rice
+				</p>
+				
+			</div>
+
+			<div class ="img-style3">
+				<p><img src="{{url_for('static',filename='img/sinigang.jpg')}}" width="400px" height="500px;" alt="sinigang" >
+
+			</div>
+
+		 </div>
+
+		  <div class="recipe">
+		 	
+		 	<div class ="img-style4">
+				<p><img src="{{url_for('static',filename='img/palabok.jpg')}}" width="400px" height="500px;" alt="palabok" >
+
+			</div>
+
+
+			<div class="content-style4">
+				<p>
+					<big><b>Palabok</b></big>  is a type of Filipino noodle dish that makes use of cornstarch sticks, which is also known as palabok noodles. It has an orange sauce composed of minced pork, tinapa flakes (or smoked fish flakes), and annatto water.
+
+				</p>
+				
+			</div>
+
+			
+		 </div>
+
+		 <div class="recipe">
+		 	
+		 	
+
+
+			<div class="content-style5">
+				<p>
+					<big><b>Bulalo</b></big> Bulalô is a beef dish from the Philippines. It is a light colored soup that is made by cooking beef shanks and bone marrow until the collagen and fat has melted into the clear broth. It typically includes leafy vegetables, corn on the cob, scallions, onions, garlic, ginger, and fish sauce.
+				</p>
+				
+			</div>
+
+			<div class ="img-style5">
+				<p><img src="{{url_for('static',filename='img/bulalo.jpg')}}" width="400px" height="500px;" alt="Bulalo" >
+
+			</div>
+
+
+			
+		 </div>
+
+		 <br><br><br>
+
+
+
+		
+
+
+	</section>
+
+	<footer>
+		
+		  <div class="socmed">
+
+		 	<h3><small>Follow us in social media</small></h3>
+		 	<div class="icon-list">
+		 
+		 		<p><a href="#"><i class="fa fa-facebook-official "></i></a></li>
+		 		<a href="#"><i class="fa fa-instagram"></i></a>
+		 		<a href="#"><i class="fa fa-twitter"></i></a>
+		 		<a href="#"><i class="fa fa-youtube"></i></a>
+		 	</p>
+		 	</div>
+
+		 	
+		 </div>
+
+
+	</footer>
+	
+
+
+
+</body>
+</html>
